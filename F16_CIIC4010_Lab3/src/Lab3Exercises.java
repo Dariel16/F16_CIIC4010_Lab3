@@ -8,8 +8,8 @@ public class Lab3Exercises {
           
 	    myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		
-		myFrame.setLocation(800, 350);
-		myFrame.setSize(400,400);
+		myFrame.setLocation(860, 440);
+		myFrame.setSize(200,200);
 		myFrame.setVisible(true);
 	}
 }
