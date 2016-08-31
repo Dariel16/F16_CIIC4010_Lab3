@@ -1,6 +1,8 @@
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Insets;
+import java.awt.Polygon;
+
 import javax.swing.JPanel;
 
 public class MyPanelClass extends JPanel {
@@ -35,10 +37,19 @@ public class MyPanelClass extends JPanel {
 ////		g.setColor(Color.RED);
 ////		g.drawLine(x1, y2, x2, y1);
 		
-		g.setColor(Color.LIGHT_GRAY);
-        g.fillOval((x2-55)/2, (y2-55)/2, 55, 55);
-        
-        
+	g.setColor(Color.LIGHT_GRAY);
+      g.fillOval((x2-55)/2, (y2-55)/2, 55, 55);
+//        
+		/* Polygon p = new Polygon();
+         p.addPoint(x1 + 5, y1 + 25);
+         p.addPoint(x1 + 20, y1 + 10);
+         p.addPoint(x1 + 35, y1 + 25);
+         p.addPoint(x1 + 25, y1 + 25);
+         p.addPoint(x1 + 25, y1 + 45);
+         p.addPoint(x1 + 15, y1 + 45);
+         p.addPoint(x1 + 15, y1 + 25);
+         g.setColor(Color.YELLOW);
+         g.drawPolygon(p);*/
 }
 	}
 
