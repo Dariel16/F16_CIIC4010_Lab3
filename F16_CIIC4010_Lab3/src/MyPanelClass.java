@@ -76,6 +76,10 @@ public class MyPanelClass extends JPanel {
 		p2.addPoint(x1 + 38, y1 + 83);
 		g.setColor(Color.WHITE);
 		g.fillPolygon(p2);
+	
+	//Polygon p3 = p2; 
+	//p3.translate(x2-72, deltaY);
+	
 	}
 }
 
